@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   munpie — Амина Гилязова · портфолио дизайнера
+  </title>
+  <meta content="Портфолио начинающего дизайнера Амины Гилязовой (munpie): графика, веб, 3D, пиксель-арт и гейм-дизайн." name="description"/>
+  <script>
+   document.documentElement.classList.add('js')
+  </script>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&amp;family=Unbounded:wght@500;800&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip" href="#projects">
+   К проектам
+  </a>
+  <header class="header">
+   <a class="brand" href="#home">
+    munpie
+    <span>
+     *
+    </span>
+   </a>
+   <button aria-controls="nav" aria-expanded="false" class="burger">
+    Меню
+   </button>
+   <nav aria-label="Основная навигация" class="nav" id="nav">
+    <a href="#home">
+     Главная
+    </a>
+    <a href="#about">
+     Обо мне
+    </a>
+    <a href="#projects">
+     Проекты
+    </a>
+    <a href="#skills">
+     Навыки
+    </a>
+    <a href="#contacts">
+     Контакты
+    </a>
+   </nav>
+  </header>
+  <main>
+   <section class="hero" id="home">
+    <p class="tag reveal">
+     Амина Гилязова / visual lab
+    </p>
+    <h1 class="reveal">
+     mun
+     <br/>
+     <em>
+      pie
+     </em>
+    </h1>
+    <p class="lead reveal">
+     Дизайн, который исследует разные формы: от пикселя до пространства. Работаю с графикой, цифровыми интерфейсами, 3D и игровыми мирами.
+    </p>
+    <div class="actions reveal">
+     <a class="btn" href="#projects">
+      Смотреть проекты
+     </a>
+     <a class="link" href="#about">
+      Обо мне
+     </a>
+    </div>
+    <div class="hero-visual reveal">
+     <img alt="Заглушка для фотографии или авторского изображения" src="images/hero-placeholder.png"/>
+     <span>
+      *mini munpie
+     </span>
+    </div>
+    <div aria-hidden="true" class="stickers">
+     <i class="s s1">
+      pixel
+     </i>
+     <i class="s s2">
+      type
+     </i>
+     <i class="s s3">
+      3D
+     </i>
+     <i class="s s4">
+      collage
+     </i>
+     <i class="s s5">
+     </i>
+    </div>
+   </section>
+   <section class="about" id="about">
+    <p class="tag reveal">
+     01 — Обо мне
+    </p>
+    <h2 class="reveal">
+     Я Амина,
+     <br/>
+     в сети —
+     <em>
+      munpie
+     </em>
+    </h2>
+    <div class="about-grid">
+     <p class="quote reveal">
+      «Мне интересно, как одна идея живёт в постере, интерфейсе, игре и на бумаге».
+     </p>
+     <div class="reveal">
+      <p>
+       Я начинающий дизайнер широкого профиля. Учусь в СПбГУПТД на 4 курсе направления «Прикладная информатика в дизайне» и пробую себя в цифровых и физических форматах.
+      </p>
+      <ul class="chips">
+       <li>
+        Графический дизайн
+       </li>
+       <li>
+        Веб-дизайн
+       </li>
+       <li>
+        Типографика
+       </li>
+       <li>
+        Брендинг
+       </li>
+       <li>
+        Коллажи
+       </li>
+       <li>
+        Пиксельная графика
+       </li>
+       <li>
+        3D
+       </li>
+       <li>
+        Гейм-дизайн
+       </li>
+       <li>
+        Рисование
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <section class="projects" id="projects">
+    <p class="tag reveal">
+     02 — Избранные проекты
+    </p>
+    <h2 class="reveal">
+     Работы
+     <em>
+      и концепты
+     </em>
+    </h2>
+    <p class="note reveal">
+     Учебные и личные проекты.
+    </p>
+    <div aria-label="Фильтр проектов" class="filters" role="group">
+     <button aria-pressed="true" class="f on" data-filter="all">
+      Все
+     </button>
+     <button aria-pressed="false" class="f" data-filter="graphic">
+      Графический дизайн
+     </button>
+     <button aria-pressed="false" class="f" data-filter="web">
+      Веб-дизайн
+     </button>
+     <button aria-pressed="false" class="f" data-filter="3d">
+      3D
+     </button>
+     <button aria-pressed="false" class="f" data-filter="game">
+      Гейм-дизайн
+     </button>
+     <button aria-pressed="false" class="f" data-filter="pixel">
+      Пиксель-арт
+     </button>
+     <button aria-pressed="false" class="f" data-filter="editorial">
+      Editorial
+     </button>
+    </div>
+    <p class="empty" hidden="">
+     В этой категории пока нет проектов.
+    </p>
+    <div aria-live="polite" class="grid" id="grid">
+     <article class="card c1 reveal" data-cat="graphic web 3d">
+      <img alt="Заглушка изображения проекта Yves Saint Laurent" class="art" src="images/project-01.png"/>
+      <div class="meta">
+       <span class="num">
+        01
+       </span>
+       <h3>
+        <button class="open">
+         Yves Saint Laurent — концепция выставки
+        </button>
+       </h3>
+       <p class="tags">
+        Graphic Design · Branding · Web Design · 3D
+       </p>
+       <p class="desc">
+        Логотип, постеры, лендинг и 3D-визуализация выставки.
+       </p>
+       <p class="more" hidden="">
+        Учебная концепция интерактивной выставки. Концепция основывается на раскрытии того, как чёрный цвет
+        используется в разных направлениях деятельности YSL и как его смысловая
+        нагрузка менялась со временем. В основе проекта лежат ключевые работы
+        бренда, начиная с легендарного костюма Le Smoking 1966 года, который стал
+        знаковым моментом в истории моды.
+       </p>
+       <p>*Это не официальный проект бренда и не коммерческий заказ Yves Saint Laurent.</p>
+      </div>
+     </article>
+     <article class="card c2 reveal" data-cat="web graphic">
+      <img alt="Заглушка изображения проекта Women Safety" class="art" src="images/project-02.png"/>
+      <div class="meta">
+       <span class="num">
+        02
+       </span>
+       <h3>
+        <button class="open">
+         Women Safety
+        </button>
+       </h3>
+       <p class="tags">
+        Web Design · Graphic Design
+       </p>
+       <p class="desc">
+        Веб-приложение и промосайт, посвящённые женской безопасности.
+       </p>
+       <p class="more" hidden="">
+        Women Safety - cервис экстренной помощи для быстрого реагирования в опасных ситуациях. Приложение помогает женщинам получить помощь одним действием: отправить сигнал близким, полиции или волонтёрам. Сервис показывает безопасные места рядом и заведомо опасные зоны.
+       </p>
+      </div>
+     </article>
+     <article class="card c3 reveal" data-cat="3d game">
+      <img alt="Заглушка изображения проекта Apartaments 17" class="art" src="images/project-03.png"/>
+      <div class="meta">
+       <span class="num">
+        03
+       </span>
+       <h3>
+        <button class="open">
+         Apartaments 17
+        </button>
+       </h3>
+       <p class="tags">
+        3D · Game Design
+       </p>
+       <p class="desc">
+        Концепт игры в 3D графике.
+       </p>
+       <p class="more" hidden="">
+        Игра сочетает элементы симулятора управления жизнью, интерьерного
+        дизайна и визуальной новеллы. 
+        Игрок управляет старым многоквартирным домом, помогает жильцам и поддерживает порядок в апартаментах.
+       </p>
+      </div>
+     </article>
+     <article class="card c4 reveal" data-cat="game pixel">
+      <img alt="Заглушка изображения игры Chasing The Light" class="art" src="images/project-04.png"/>
+      <div class="meta">
+       <span class="num">
+        04
+       </span>
+       <h3>
+        <button class="open">
+         Chasing The Light
+        </button>
+       </h3>
+       <p class="tags">
+        Game Design · Pixel Art
+       </p>
+       <p class="desc">
+        Пиксельный платформер, разработанный на Python.
+       </p>
+       <p class="more" hidden="">
+        Двухмерный платформер в пиксельной стилистике, ориентированный на одиночное прохождение. Сюжет разворачивается в вымышленном мире, где внезапное исчезновение света повергло всё живое в глубокое тьму. Игроку необходимо зажигать потухшие лампы и сражаться с противниками ради спасения этого мира от тьмы.
+       </p>
+      </div>
+     </article>
+     <article class="card c5 reveal" data-cat="graphic">
+      <img alt="Заглушка изображения серии Jellyfish Posters" class="art" src="images/project-05.png"/>
+      <div class="meta">
+       <span class="num">
+        05
+       </span>
+       <h3>
+        <button class="open">
+         Jellyfish Posters
+        </button>
+       </h3>
+       <p class="tags">
+        Graphic Design
+       </p>
+       <p class="desc">
+        Серия плакатов с медузами.
+       </p>
+       <p class="more" hidden="">
+        Плакаты вдохновлены визуальными образами медуз и музыкальной кмпозицией Liquid Smooth певицы Mitski.
+       </p>
+      </div>
+     </article>
+     <article class="card c6 reveal" data-cat="editorial graphic">
+      <img alt="Заглушка изображения фотокниги Музыка повсюду" class="art" src="images/project-06.png"/>
+      <div class="meta">
+       <span class="num">
+        06
+       </span>
+       <h3>
+        <button class="open">
+         «Музыка повсюду»
+        </button>
+       </h3>
+       <p class="tags">
+        Editorial · Photography
+       </p>
+       <p class="desc">
+        Фотокнига: фотография, вёрстка и печать.
+       </p>
+       <p class="more" hidden="">
+        Фотопроект, через который хотеллось передать красоту музыки и её важность в жизни человека.
+       </p>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="skills" id="skills">
+    <p class="tag reveal">
+     03 — Навыки и инструменты
+    </p>
+    <h2 class="reveal">
+     Чем
+     <em>
+      работаю
+     </em>
+    </h2>
+    <div class="sk-grid">
+     <div class="sk reveal">
+      <h3>
+       Graphic &amp; Visual Design
+      </h3>
+      <ul>
+       <li>
+        Figma
+       </li>
+       <li>
+        Photoshop
+       </li>
+       <li>
+        Illustrator
+       </li>
+      </ul>
+     </div>
+     <div class="sk reveal">
+      <h3>
+       Motion &amp; 3D
+      </h3>
+      <ul>
+       <li>
+        After Effects
+       </li>
+       <li>
+        Blender
+       </li>
+      </ul>
+     </div>
+     <div class="sk reveal">
+      <h3>
+       Digital Art &amp; Game Design
+      </h3>
+      <ul>
+       <li>
+        Aseprite
+       </li>
+      </ul>
+     </div>
+     <div class="sk reveal">
+      <h3>
+       Creative Development
+      </h3>
+      <ul>
+       <li>
+        Python
+       </li>
+       <li>
+        HTML
+       </li>
+       <li>
+        CSS
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="edu reveal">
+     <p class="tag">
+      Образование
+     </p>
+     <p class="edu-t">
+      СПбГУПТД
+     </p>
+     <p>
+      Прикладная информатика в дизайне · 4 курс
+     </p>
+    </div>
+   </section>
+   <section class="contacts" id="contacts">
+    <p class="tag reveal">
+     04 — Контакты
+    </p>
+    <h2 class="reveal">
+     Есть идея? Давай превратим её в визуальную историю
+    </h2>
+    <div class="actions reveal">
+     <a class="btn dark" href="http://t.me/munpieee" rel="noopener noreferrer" target="_blank">
+      Telegram-канал ↗
+     </a>
+     <a class="btn dark ghost" href="https://pin.it/25GYOThYo" rel="noopener noreferrer" target="_blank">
+      Pinterest ↗
+     </a>
+     <a class="btn dark" href="https://t.me/munpiee" rel="noopener noreferrer" target="_blank">
+      Написать в Telegram ↗
+     </a>
+     <a class="btn dark ghost" href="mailto:aminagilyazova@gmail.com">
+      Написать на почту ↗
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <p>
+    <strong>
+     JavaScript:
+    </strong>
+    фильтрация проектов по категориям, модальные окна с описаниями работ, появление блоков при прокрутке (Intersection Observer), мобильное меню, подсветка активного раздела, плавная прокрутка к якорям, курсор-акцент на десктопе.
+   </p>
+   <p class="copy">
+    © munpie · Амина Гилязова
+   </p>
+  </footer>
+  <dialog aria-labelledby="m-title" class="modal">
+   <button aria-label="Закрыть" class="close">
+    ✕
+   </button>
+   <div class="m-art">
+   </div>
+   <p class="num" id="m-num">
+   </p>
+   <h3 id="m-title">
+   </h3>
+   <p class="tags" id="m-tags">
+   </p>
+   <p id="m-desc">
+   </p>
+   <p id="m-more">
+   </p>
+  </dialog>
+  <div aria-hidden="true" class="cursor">
+  </div>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
+
